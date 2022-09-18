@@ -29,9 +29,9 @@
 		AD0B9F85230D61840065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C69CC72128D712E400E6F77F /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "BMI Calculator/Controllers/BMI.swift"; sourceTree = SOURCE_ROOT; };
+		C69CC72128D712E400E6F77F /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BMI.swift; path = "BMI Calculator/Models/BMI.swift"; sourceTree = SOURCE_ROOT; };
 		C6A3815128D5BAE5008231C0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
-		C6A3815328D693D4008231C0 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "BMI Calculator/Controllers/CalculatorBrain.swift"; sourceTree = SOURCE_ROOT; };
+		C6A3815328D693D4008231C0 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = "BMI Calculator/Models/CalculatorBrain.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 		AD0B9F78230D61800065EFD9 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C69CC72328D71FC800E6F77F /* Models */,
 				AD0B9F79230D61800065EFD9 /* AppDelegate.swift */,
 				AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */,
-				AD0B9F8F230D63EA0065EFD9 /* Models */,
 				AD0B9F8E230D63E10065EFD9 /* Views */,
 				AD0B9F8D230D63D70065EFD9 /* Controllers */,
 				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
@@ -94,7 +94,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
+		C69CC72328D71FC800E6F77F /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				C6A3815328D693D4008231C0 /* CalculatorBrain.swift */,
